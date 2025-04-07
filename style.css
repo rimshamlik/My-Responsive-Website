@@ -1,0 +1,296 @@
+* {
+    font-family: "Inter", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.navbar {
+    margin-top: 9px;
+}
+
+/* Nav Items */
+.navbar-collapse {
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item a {
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 1s;
+}
+
+.nav-item a:hover {
+    color: #388E3B !important;
+}
+
+.navbar-nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Navbar Button */
+.navbar-btn {
+    border-radius: 3px;
+    padding: 9px 22px;
+    color: white;
+    background-color: #388E3B;
+}
+
+.navbar-btn:hover {
+    color: white;
+}
+
+/* Banner Section 1 */
+
+.section-1 {
+    background-color: #F5F7FA;
+    padding: 100px 90px;
+}
+
+p {
+    font-weight: 400;
+    margin-top: 11px;
+    font-size: 15px;
+    color: #717171;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    color: #4D4D4D;
+}
+
+/* Banner Button */
+.banner-btn {
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: #388E3B;
+    color: white;
+}
+
+.banner-btn:hover {
+    color: white;
+}
+
+/* Sectino 2 */
+.section-2 {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #4D4D4D;
+}
+
+/* Sectino 3 */
+.grouping-sec h5 {
+    color: #4D4D4D;
+    margin: 15px 0px;
+}
+
+/* Sectino 4 */
+.section4 {
+    padding: 0px 48px;
+}
+
+.img-div {
+    width: 328px;
+    height: 345px;
+}
+
+.image-sec4 {
+    margin-top: 20px;
+    opacity: 100%;
+    height: 290px;
+    width: 347px;
+}
+
+.sect4-btn {
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: #388E3B;
+    color: white;
+}
+
+.sect4-btn:hover {
+    color: white;
+}
+
+/* section 5 */
+.section5 {
+    background-color: #F5F7FA;
+}
+
+.containerr {
+    padding: 21px 48px;
+}
+
+.sec5-content h4 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.sec5-icons {
+    width: 500px;
+    height: 250px;
+}
+
+.icon-cont {
+    display: flex;
+    align-items: center;
+}
+
+.icon-cont p {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icon-cont span {
+    align-items: center;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.icons {
+    opacity: 100%;
+    width: 50px;
+    height: 40px;
+}
+
+/* Sectino 6 */
+.section6 {
+    padding: 0px 48px;
+}
+
+.img-div6 {
+    opacity: 100%;
+    width: 250px;
+    height: 345px;
+}
+
+.image-sec6 {
+    margin-top: 10px;
+    opacity: 100%;
+    height: 320px;
+    width: 367px;
+}
+
+.sect6-btn {
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: #388E3B;
+    color: white;
+}
+
+.sect6-btn:hover {
+    color: white;
+}
+
+/* Section 7 */
+.section7 {
+    background-color: #F5F7FA;
+}
+
+.sect7-contanr {
+    padding: 15px 48px;
+    margin-bottom: 20px;
+}
+
+.sec7-content p {
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+#span1 {
+    font-size: 25px;
+    color: #388E3B;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+#span2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #89939E;
+    font-weight: 500;
+}
+
+.sect7-img {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    opacity: 100%;
+    height: 335px;
+    width: 335px;
+}
+
+.logos-txt a {
+    color: #388E3B;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Section 8 */
+.card-btn {
+    color: #388E3B;
+    font-weight: 500;
+}
+
+/* Section 9 */
+.sec-9 {
+    background-color: #F5F7FA;
+}
+
+.sec9-btn {
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: #388E3B;
+    color: white;
+}
+
+.sec9-btn:hover {
+    color: white;
+}
+
+/* Section 10 */
+.sec-10 {
+    background-color: #263238c7;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.column-2 h5 {
+    color: #FFFFFF;
+    margin: 15px 0px;
+    padding-left: 30px;
+}
+
+.column-2 ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: small;
+}
+.column-2 ul li {
+    align-items: flex-start;
+    margin: 5px 0px;
+}
+
+.column-3 h5 {
+    color: #FFFFFF;
+    margin: 15px 0px;
+}

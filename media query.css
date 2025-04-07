@@ -1,0 +1,277 @@
+/* For Mobile Screens */
+@media only screen and (min-width: 225px) and (max-width: 575px) {
+
+    /* NavBar */
+    .navbar-collapse {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item a {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* Banner Section 1 */
+    .section-1 {
+        padding: 20px 30px;
+    }
+
+    .banner-content p {
+        margin-top: 15px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .banner-btn {
+        margin-top: 10px;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    /* Section 4 */
+    .section4 h3 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .section4 p {
+        font-size: 13px;
+    }
+
+    /* Section 5 */
+    .sec5-content {
+        margin-top: 50px;
+    }
+
+    .icon-cont {
+        margin-left: -18px;
+    }
+
+    /* Section 6 */
+    .section6 h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .section6 p {
+        font-size: 13px;
+    }
+
+    /* Section 7 */
+    .logos-txt a {
+        margin-left: 9px;
+        margin-top: 20px;
+    }
+}
+
+/* For Desktop Screens */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+
+    /* NavBar */
+    .navbar-collapse {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item a {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* Banner Section 1 */
+    .section-1 {
+        padding: 50px 50px;
+    }
+
+    .banner-content p {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .banner-content h1 {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .banner-btn {
+        margin-left: 10px;
+    }
+
+    /* Section 4 */
+    .section4-cont h3 {
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .section4 p {
+        font-size: 13px;
+    }
+
+    .img-div {
+        width: 260px;
+        height: 255px;
+    }
+
+    .image-sec4 {
+        margin-top: 20px;
+        opacity: 100%;
+        height: 190px;
+        width: 265px;
+    }
+
+    .sect4-btn {
+        margin-top: 12px;
+        padding: 7px 19px;
+        background-color: #388E3B;
+        color: white;
+    }
+
+    .sect4-btn:hover {
+        color: white;
+    }
+
+    /* Section 5 */
+
+    .sec5-content {
+        margin-top: 50px;
+    }
+
+    .icon-cont {
+        margin-left: -50px;
+    }
+
+    /* Section 6 */
+
+    .section6-cont h3 {
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .section6 p {
+        font-size: 13px;
+    }
+
+    .img-div6 {
+        width: 260px;
+        height: 255px;
+    }
+
+    .image-sec6 {
+        margin-top: -40px;
+        opacity: 100%;
+        height: 290px;
+        width: 265px;
+    }
+
+    .sect6-btn {
+        margin-top: 12px;
+        padding: 7px 19px;
+        background-color: #388E3B;
+        color: white;
+    }
+
+    /* Section 7 */
+    .logos-txt a {
+        margin-left: 9px;
+    }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+
+    /* Section 4 */
+    .section4-cont h3 {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* Section 5 */
+    .sec5-content {
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .icon-cont {
+        margin-left: 10px;
+    }
+
+    /* Section 6 */
+    .section6-cont h3 {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
+
+    /* For section 7  */
+    .sect7-img {
+        margin-top: 8px;
+        opacity: 100%;
+        height: 295px;
+        width: 315px;
+    }
+
+    .sec7-content p {
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1212px) {
+
+    /* NavBar */
+    .navbar-nav {
+        width: 50%;
+    }
+
+    /* Banner Section 1 */
+    .section-1 {
+        padding: 50px 40px;
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+    }
+
+    .banner-content p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .banner-btn {
+        margin-top: 10px;
+    }
+
+    /* Section 7 */
+
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
